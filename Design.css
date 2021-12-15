@@ -17,7 +17,14 @@ body{
   height:auto;
   max-width:30%;
   position: relative;
-  left: 80px;
+  left: 95px;
+}
+.img2{
+  width:100%;
+  height:auto;
+  max-width:30%;
+  position: relative;
+  right: 95px;
 }
 .links{
 display: flex;
@@ -86,6 +93,28 @@ font-size: 20px;
   position: relative;
   right: 100px;
 }
+#Div3{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+#Div3 h3{
+  color:#00a69c;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: 120px;
+}
+#Div3 p{
+  color:black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: 120px;
+}
+#Div3 li{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: 100px;
+}
 
 .text{
   text-align: center;
@@ -125,4 +154,17 @@ font-size: 20px;
 }
 .CardsBackgraound{
   background-color: #fee552;
+}
+
+@media only screen and (max-width:600px ){
+  #Div1{
+  flex-direction: column ; } 
+  #Div2{
+  flex-direction: column ; } 
+  #Div3{
+  flex-direction: column ; } 
+  .row{
+    flex-direction: column;
+  }
+
 }
