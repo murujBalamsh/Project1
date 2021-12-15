@@ -7,18 +7,23 @@ nav{
 body{
     margin: 0px;
 }
+.imgHeader{
+  width:100%;
+  height:auto;
+  max-width:70%;
+}
 .links{
 display: flex;
 list-style: none;
-gap: 20px;
-padding-right: 30px;
+gap: 5px;
+padding-right: 20px;
 
 }
 .links li a{
   text-decoration: none;
   color: white;  
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 15px;
 }
 #Div1{
     display:flex;
@@ -27,7 +32,7 @@ padding-right: 30px;
 }
 .text{
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:#00a69c;
 }
@@ -38,7 +43,9 @@ padding-right: 30px;
 }
 
 
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+}
 
 .row:after {
   content: "";
