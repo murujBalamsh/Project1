@@ -12,6 +12,13 @@ body{
   height:auto;
   max-width:60%;
 }
+.img{
+  width:100%;
+  height:auto;
+  max-width:30%;
+  position: relative;
+  left: 80px;
+}
 .links{
 display: flex;
 list-style: none;
@@ -57,6 +64,28 @@ font-size: 20px;
 
 }
 
+#Div2{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+#Div2 h3{
+  color:#00a69c;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  right: 80px;
+}
+#Div2 p{
+  color:black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  right: 80px;
+}
+#Div2 li{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  right: 100px;
+}
 
 .text{
   text-align: center;
@@ -73,6 +102,7 @@ font-size: 20px;
 .row {
  display: flex;
  justify-content: space-evenly;
+ padding: 10px;
 }
 
 .row:after {
@@ -92,4 +122,7 @@ font-size: 20px;
   background:#fee552;
   width: 120px;
   padding: 20px;
+}
+.CardsBackgraound{
+  background-color: #fee552;
 }
