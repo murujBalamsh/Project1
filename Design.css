@@ -10,13 +10,13 @@ body{
 .imgHeader{
   width:100%;
   height:auto;
-  max-width:70%;
+  max-width:60%;
 }
 .links{
 display: flex;
 list-style: none;
 gap: 5px;
-padding-right: 20px;
+padding-right:20px;
 
 }
 .links li a{
@@ -29,7 +29,35 @@ padding-right: 20px;
     display:flex;
     align-items: center;
     justify-content:space-between;
+    
 }
+#Div1 h4{
+  font-size: 30px;
+  color:#00a69c;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: 80px;
+}
+#Div1 p {
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: 80px;
+}
+#Div1 button{
+color: #00a69c;
+background-color: #fee552;
+border-radius: 10px;
+border-color:#fee552 ;
+text-align: center;
+padding: 10px 35px;
+position: relative;
+left: 100px;
+font-size: 20px;
+
+}
+
+
 .text{
   text-align: center;
   font-size: 30px;
@@ -42,9 +70,9 @@ padding-right: 20px;
   padding: 0 10px;
 }
 
-
 .row {
-  margin: 0 -5px;
+ display: flex;
+ justify-content: space-evenly;
 }
 
 .row:after {
@@ -62,5 +90,6 @@ padding-right: 20px;
 .cardBorder{
   border-radius: 50%;
   background:#fee552;
-  width: 150px;
+  width: 120px;
+  padding: 20px;
 }
