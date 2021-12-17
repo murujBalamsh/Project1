@@ -162,7 +162,6 @@ font-size: 20px;
   align-items: center;
   background-color: #9375ff;
   padding: 10px;
-
 }
 input[type=submit] {
   background-color: #fee552;
@@ -173,7 +172,7 @@ input[type=submit] {
   font-size: 15px;
 }
 input[type=text],textarea{
-  padding: 12px;
+  padding: 12px ;
   border: none;
   border-radius: 4px;
 }
@@ -185,7 +184,44 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.Div1footer{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+  position: relative;
+  right:70px;
+}
+.Flink{
+  list-style: none;  
+}
+.Flink li a{
+  font-size: small;
+  padding-right: 100px;
+  text-decoration: none; 
+  color:#00a69c;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgFooter{
+  width:90%;
+  height:auto;
+  max-width:15%;
+  position: relative;
+  left: 40px;
+}
+.Div2Footer{
+background-color:#9375ff ;
+padding: 10px;
+}
+.Div2Footer p{
+font-size: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+text-align: center;
+font-size: 20px;
+}
 
 
 
@@ -200,5 +236,10 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   .row{
     flex-direction: column;
   }
+  footer{
+    flex-direction: column ;  
+    align-items:center;
+
+}
 
 }
