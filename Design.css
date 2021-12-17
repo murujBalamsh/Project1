@@ -6,6 +6,7 @@ nav{
 }
 body{
     margin: 0px;
+    
 }
 .imgHeader{
   width:100%;
@@ -155,6 +156,39 @@ font-size: 20px;
 .CardsBackgraound{
   background-color: #fee552;
 }
+.form{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #9375ff;
+  padding: 10px;
+
+}
+input[type=submit] {
+  background-color: #fee552;
+  color:#00a69c;
+  padding: 12px 80px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+input[type=text],textarea{
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+}
+.form h4{
+color:white;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form h1{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
 
 @media only screen and (max-width:600px ){
   #Div1{
